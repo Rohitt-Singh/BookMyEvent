@@ -33,9 +33,10 @@ BookMyEvent is a full-stack MERN application that allows users to browse events,
 
 ---
 
-🚀 ## Setup Instructions
+🚀 # Setup Instructions
 
 **Prerequisites**
+
 Make sure you have Node.js installed on your machine. You will also need a MongoDB database (e.g., MongoDB Atlas Free Tier).
 
 1. Environment Variables Configuration
