@@ -33,8 +33,9 @@ BookMyEvent is a full-stack MERN application that allows users to browse events,
 
 ---
 
-🚀 Setup Instructions
-Prerequisites
+🚀 ## Setup Instructions
+
+**Prerequisites**
 Make sure you have Node.js installed on your machine. You will also need a MongoDB database (e.g., MongoDB Atlas Free Tier).
 
 1. Environment Variables Configuration
@@ -50,7 +51,8 @@ Note: For EMAIL_PASS, you need to generate an "App Password" from your Google Ac
 2. Run from Outer Folder (Single Terminal)
 You can now manage both backend and frontend from the project root:
 
-# from BookMyEvent root
+from BookMyEvent root
+
 npm install
 npm run install:all
 npm run dev
@@ -69,6 +71,7 @@ Frontend Terminal:
 
 cd client
 npm install
+
 4. Run the Application Local Servers
 Run Backend:
 
