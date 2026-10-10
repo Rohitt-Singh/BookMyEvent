@@ -30,7 +30,7 @@ MongoDB Atlas provides a fully managed, free cloud database. This is where `mong
    - Click the **"Connect"** button on your new cluster.
    - Choose **"Drivers"** (Connect your application).
    - Copy the connection string provided. It will look something like this:
-     `mongodb+srv://bookmyeventadmin:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority`
+     `mongodb+srv://bookmyeventadmin:<password>@..`
    - **Important**: Replace `<password>` in the string with the actual password you created in Step 3. (Do not include the `< >` brackets).
 
 ---
@@ -43,7 +43,7 @@ To send emails automatically (booking confirmations), you need to configure an A
 2. Navigate to the **Security** tab on the left.
 3. Under "How you sign in to Google", select **2-Step Verification** and make sure it is turned ON.
 4. Once ON, go back to the Security tab, search for **App Passwords** in the search bar.
-5. Generate a new App Password (select "Other" and name it "Eventora").
+5. Generate a new App Password (select "Other" and name it "BookMyEvent").
 6. Copy the 16-character password generated.
 
 ---
@@ -54,7 +54,7 @@ Now that you have your credentials, you need to plug them into the backend. Open
 
 ```env
 # Paste the MongoDB string you generated (make sure you swapped the password)
-MONGO_URI=mongodb+srv://bookmyeventadmin:your_actual_password@cluster0.xxxxx.mongodb.net/eventora?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://bookmyeventadmin:your_actual_password@...
 
 # This can be any random string, but keep it secure.
 JWT_SECRET=supersecretjwtkey_bookmyevent
